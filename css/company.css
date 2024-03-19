@@ -1,0 +1,38 @@
+.company-section {
+    padding: 100px;
+}
+
+.company-section-images {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.company-heading {
+    text-align: center;
+    font-size: 12px;
+    color: #667085;
+    padding: 20px;
+    font-weight: 300;
+}
+
+
+
+@media screen and (max-width: 680px) {
+    .company-section-images {
+        gap: 1rem;
+    }
+
+    .company-imgs {
+        width: 70px;
+        height: 24px;
+    }
+
+    .company-heading {
+        text-align: center;
+        font-size: 12px;
+        color: #667085;
+        padding: 20px;
+    }
+}
